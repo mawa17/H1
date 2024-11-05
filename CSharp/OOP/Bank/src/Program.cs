@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Account account = new("Marcus", "W");
-            Console.WriteLine($"Hello {account.AccountOwner.FullName} your account is now created");
+            AccountOwner accountOwner = new() { SurName = "Marucs", LastName = "W" };
+            Account account = new(accountOwner);
+            Console.WriteLine($"Hello {account.accountOwner.FullName} your account is now created");
             string result = account.Deposit(1234);
             Console.WriteLine(result);
             if(!account.TryWithdraw(99999999, out string withdrawResult1)) Console.WriteLine(withdrawResult1);
