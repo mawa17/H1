@@ -13,16 +13,23 @@ namespace src
         public Account(in string surname, in string lastname, uint startBalance = 100)
         {
             this.Balance = Math.Max(startBalance, 100);
-            this.AccountOwner = new() { Surname = surname, Lastname = lastname };
+            this.AccountOwner = new() { SurName = surname, LastName = lastname };
         }
-        public void Deposit(uint amount)
+        public string Deposit(uint amount)
         {
             this.Balance += amount;
+            return $"Hello {this.AccountOwner.FullName}\n{amount} has been deposited into your account\nNow your balance has increeced to: {this.Balance}\n\r";
         }
-        public bool Withdraw(uint amount)
+        public bool TryWithdraw(uint amount, out string result)
         {
-            if(this.Balance < amount) return false;
+            result = string.Empty;
+            if(this.Balance < amount)
+            {
+                result = $"Hello {this.AccountOwner.FullName}\nYour account Balance: {this.Balance} is too low to Withdraw: {amount}\n\r";
+                return false;
+            }
             this.Balance -= amount;
+            result = $"Hello {this.AccountOwner.FullName}\n{amount} has been withdrawed from your account\nNow your balance has decressed to: {this.Balance}\n\r";
             return true;
 
         }
