@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Selenium.WebDriver/4.25.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/WebDriver.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Selenium.WebDriver.targets": {}
+        }
+      },
+      "lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Selenium.WebDriver/4.25.0": {
+      "sha512": "0g/9I5ennfL2ZaQoXsfEPj+GcqrKlcVr1yxh3C/Eed/acNZrC38OaXLorsuHdAHiGn+QySV3iz8/hFcOXvVcoA==",
+      "type": "package",
+      "path": "selenium.webdriver/4.25.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/Selenium.WebDriver.targets",
+        "buildTransitive/Selenium.WebDriver.targets",
+        "icon.png",
+        "lib/net8.0/WebDriver.dll",
+        "lib/net8.0/WebDriver.xml",
+        "lib/netstandard2.0/WebDriver.dll",
+        "lib/netstandard2.0/WebDriver.xml",
+        "manager/linux/selenium-manager",
+        "manager/macos/selenium-manager",
+        "manager/windows/selenium-manager.exe",
+        "selenium.webdriver.4.25.0.nupkg.sha512",
+        "selenium.webdriver.nuspec"
+      ]
+    },
+    "lib/1.0.0": {
+      "type": "project",
+      "path": "../lib/lib.csproj",
+      "msbuildProject": "../lib/lib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Selenium.WebDriver >= 4.25.0",
+      "lib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\marcu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\marcu\\Desktop\\H1\\Programming\\dllAPI\\CLI\\CLI.csproj",
+      "projectName": "CLI",
+      "projectPath": "C:\\Users\\marcu\\Desktop\\H1\\Programming\\dllAPI\\CLI\\CLI.csproj",
+      "packagesPath": "C:\\Users\\marcu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marcu\\Desktop\\H1\\Programming\\dllAPI\\CLI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\marcu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\marcu\\Desktop\\H1\\Programming\\dllAPI\\lib\\lib.csproj": {
+              "projectPath": "C:\\Users\\marcu\\Desktop\\H1\\Programming\\dllAPI\\lib\\lib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Selenium.WebDriver": {
+            "target": "Package",
+            "version": "[4.25.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

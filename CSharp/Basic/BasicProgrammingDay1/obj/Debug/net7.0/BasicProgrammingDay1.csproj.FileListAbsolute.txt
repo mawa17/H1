@@ -1,0 +1,14 @@
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\bin\Debug\net7.0\BasicProgrammingDay1.exe
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\bin\Debug\net7.0\BasicProgrammingDay1.deps.json
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\bin\Debug\net7.0\BasicProgrammingDay1.runtimeconfig.json
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\bin\Debug\net7.0\BasicProgrammingDay1.dll
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\bin\Debug\net7.0\BasicProgrammingDay1.pdb
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\BasicProgrammingDay1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\BasicProgrammingDay1.AssemblyInfoInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\BasicProgrammingDay1.AssemblyInfo.cs
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\BasicProgrammingDay1.csproj.CoreCompileInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\BasicProgrammingDay1.dll
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\refint\BasicProgrammingDay1.dll
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\BasicProgrammingDay1.pdb
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\BasicProgrammingDay1.genruntimeconfig.cache
+C:\Users\marcu\Desktop\H1\Programming\BasicProgrammingDay1\obj\Debug\net7.0\ref\BasicProgrammingDay1.dll

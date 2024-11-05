@@ -1,0 +1,14 @@
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\AssignmentBooklet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\AssignmentBooklet.AssemblyInfoInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\AssignmentBooklet.AssemblyInfo.cs
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\AssignmentBooklet.csproj.CoreCompileInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\bin\Debug\net7.0\AssignmentBooklet.exe
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\bin\Debug\net7.0\AssignmentBooklet.deps.json
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\bin\Debug\net7.0\AssignmentBooklet.runtimeconfig.json
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\bin\Debug\net7.0\AssignmentBooklet.dll
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\bin\Debug\net7.0\AssignmentBooklet.pdb
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\AssignmentBooklet.dll
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\refint\AssignmentBooklet.dll
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\AssignmentBooklet.pdb
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\AssignmentBooklet.genruntimeconfig.cache
+C:\Users\marcu\Desktop\H1\Programming\AssignmentBooklet\obj\Debug\net7.0\ref\AssignmentBooklet.dll

@@ -1,0 +1,14 @@
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\bin\Debug\net7.0\StudentAdministration.exe
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\bin\Debug\net7.0\StudentAdministration.deps.json
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\bin\Debug\net7.0\StudentAdministration.runtimeconfig.json
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\bin\Debug\net7.0\StudentAdministration.dll
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\bin\Debug\net7.0\StudentAdministration.pdb
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\StudentAdministration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\StudentAdministration.AssemblyInfoInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\StudentAdministration.AssemblyInfo.cs
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\StudentAdministration.csproj.CoreCompileInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\StudentAdministration.dll
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\refint\StudentAdministration.dll
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\StudentAdministration.pdb
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\StudentAdministration.genruntimeconfig.cache
+C:\Users\marcu\Desktop\H1\Programming\StudentAdministration\obj\Debug\net7.0\ref\StudentAdministration.dll

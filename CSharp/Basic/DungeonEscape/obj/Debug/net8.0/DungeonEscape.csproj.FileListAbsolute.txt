@@ -1,0 +1,15 @@
+D:\Marcus\Desktop\DungeonEscape\bin\Debug\net8.0\DungeonEscape.exe
+D:\Marcus\Desktop\DungeonEscape\bin\Debug\net8.0\DungeonEscape.deps.json
+D:\Marcus\Desktop\DungeonEscape\bin\Debug\net8.0\DungeonEscape.runtimeconfig.json
+D:\Marcus\Desktop\DungeonEscape\bin\Debug\net8.0\DungeonEscape.dll
+D:\Marcus\Desktop\DungeonEscape\bin\Debug\net8.0\DungeonEscape.pdb
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.GeneratedMSBuildEditorConfig.editorconfig
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.AssemblyInfoInputs.cache
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.AssemblyInfo.cs
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.csproj.CoreCompileInputs.cache
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.sourcelink.json
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.dll
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\refint\DungeonEscape.dll
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.pdb
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\DungeonEscape.genruntimeconfig.cache
+D:\Marcus\Desktop\DungeonEscape\obj\Debug\net8.0\ref\DungeonEscape.dll

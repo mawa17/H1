@@ -1,0 +1,14 @@
+C:\Users\marcu\Desktop\H1\Programming\Battleship\bin\Debug\net8.0\Battleship.exe
+C:\Users\marcu\Desktop\H1\Programming\Battleship\bin\Debug\net8.0\Battleship.deps.json
+C:\Users\marcu\Desktop\H1\Programming\Battleship\bin\Debug\net8.0\Battleship.runtimeconfig.json
+C:\Users\marcu\Desktop\H1\Programming\Battleship\bin\Debug\net8.0\Battleship.dll
+C:\Users\marcu\Desktop\H1\Programming\Battleship\bin\Debug\net8.0\Battleship.pdb
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\Battleship.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\Battleship.AssemblyInfoInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\Battleship.AssemblyInfo.cs
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\Battleship.csproj.CoreCompileInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\Battleship.dll
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\refint\Battleship.dll
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\Battleship.pdb
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\Battleship.genruntimeconfig.cache
+C:\Users\marcu\Desktop\H1\Programming\Battleship\obj\Debug\net8.0\ref\Battleship.dll

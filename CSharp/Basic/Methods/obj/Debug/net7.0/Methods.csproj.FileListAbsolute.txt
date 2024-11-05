@@ -1,0 +1,14 @@
+C:\Users\marcu\Desktop\H1\Programming\Methods\bin\Debug\net7.0\Methods.exe
+C:\Users\marcu\Desktop\H1\Programming\Methods\bin\Debug\net7.0\Methods.deps.json
+C:\Users\marcu\Desktop\H1\Programming\Methods\bin\Debug\net7.0\Methods.runtimeconfig.json
+C:\Users\marcu\Desktop\H1\Programming\Methods\bin\Debug\net7.0\Methods.dll
+C:\Users\marcu\Desktop\H1\Programming\Methods\bin\Debug\net7.0\Methods.pdb
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\Methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\Methods.AssemblyInfoInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\Methods.AssemblyInfo.cs
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\Methods.csproj.CoreCompileInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\Methods.dll
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\refint\Methods.dll
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\Methods.pdb
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\Methods.genruntimeconfig.cache
+C:\Users\marcu\Desktop\H1\Programming\Methods\obj\Debug\net7.0\ref\Methods.dll

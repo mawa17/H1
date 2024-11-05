@@ -1,0 +1,11 @@
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\bin\Release\net8.0\lib.deps.json
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\bin\Release\net8.0\lib.dll
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\bin\Release\net8.0\lib.pdb
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\lib.AssemblyInfoInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\lib.AssemblyInfo.cs
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\lib.csproj.CoreCompileInputs.cache
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\lib.dll
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\refint\lib.dll
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\lib.pdb
+C:\Users\marcu\Desktop\H1\Programming\dllAPI\lib\obj\Release\net8.0\ref\lib.dll
