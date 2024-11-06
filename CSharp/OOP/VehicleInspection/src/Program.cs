@@ -12,7 +12,7 @@
             Vehicle car = new Car(carBrand, carModel, carProductionDate, carLastInspection);
 
             string truckBrand = "Volvo";
-            string truckModel = "A6";
+            string truckModel = "H6";
             DateTime truckProductionDate = new(2018, 10, 1);
             DateTime truckLastInspection = new(2021, 10, 1); /*NOT ALLOWED TO DRIVE*/
             //DateTime truckLastInspection = new(2024, 10, 1); /*ALLOWED TO DRIVE*/

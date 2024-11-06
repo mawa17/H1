@@ -29,7 +29,7 @@
             if (base.ProductionDate.HasPassed(365 * 4) && base.LastInspection.HasPassed(365 * 2)) return $"{this.GetType().Name} NEED inspection ASAP and is NOT allowed to drive!";
             return $"{this.GetType().Name} Is good to drive";
         }
-        public override string DisplayInfo() => $"Car: {Brand} {Model}"; 
+        public override string DisplayInfo() => $"Car: {base.Brand} {base.Model}"; 
 
     }
     public sealed class Truck : Vehicle
@@ -40,6 +40,6 @@
             if (base.ProductionDate.HasPassed(365) && base.LastInspection.HasPassed(365)) return $"{this.GetType().Name} NEED inspection ASAP and is NOT allowed to drive!";
             return $"{this.GetType().Name} Is good to drive";
         }
-        public override string DisplayInfo() => $"Truck: {Brand} {Model}";
+        public override string DisplayInfo() => $"Truck: {base.Brand} {base.Model}";
     }
 }
