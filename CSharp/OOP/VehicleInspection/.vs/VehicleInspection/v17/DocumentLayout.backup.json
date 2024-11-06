@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{87CA6C6C-D6C5-414E-8A63-F92A54C60EAF}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\vehicleinspection\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87CA6C6C-D6C5-414E-8A63-F92A54C60EAF}|src\\src.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87CA6C6C-D6C5-414E-8A63-F92A54C60EAF}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\vehicleinspection\\src\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87CA6C6C-D6C5-414E-8A63-F92A54C60EAF}|src\\src.csproj|solutionrelative:src\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\VehicleInspection\\src\\Vehicle.cs",
+              "RelativeDocumentMoniker": "src\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\VehicleInspection\\src\\Vehicle.cs",
+              "RelativeToolTip": "src\\Vehicle.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wCUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:55:48.171Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "src\\Program.cs",
               "ToolTip": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\VehicleInspection\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T07:54:23.635Z",
               "EditorCaption": ""
