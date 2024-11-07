@@ -30,8 +30,8 @@
             truck.SetTireType(true);
             Console.WriteLine($"Winter Rim Size: {truck.MaxRimSize}");
 
-            car.GetInterfaceInfo();
-            truck.GetInterfaceInfo();
+            Console.WriteLine(car.GetInterfaceInfo());
+            Console.WriteLine(truck.GetInterfaceInfo());
         }
     }
 }
