@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD99819-6AD9-4773-B87D-FEB8B739D132}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\dependencyinjection\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD99819-6AD9-4773-B87D-FEB8B739D132}|src\\src.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD99819-6AD9-4773-B87D-FEB8B739D132}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\dependencyinjection\\src\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD99819-6AD9-4773-B87D-FEB8B739D132}|src\\src.csproj|solutionrelative:src\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD99819-6AD9-4773-B87D-FEB8B739D132}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\dependencyinjection\\src\\dpserviceexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CD99819-6AD9-4773-B87D-FEB8B739D132}|src\\src.csproj|solutionrelative:src\\dpserviceexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\src\\Startup.cs",
+              "RelativeDocumentMoniker": "src\\Startup.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\src\\Startup.cs",
+              "RelativeToolTip": "src\\Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAvwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T11:16:31.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DPServiceExample.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\src\\DPServiceExample.cs",
+              "RelativeDocumentMoniker": "src\\DPServiceExample.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\src\\DPServiceExample.cs",
+              "RelativeToolTip": "src\\DPServiceExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:56:35.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\src\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Program.cs",
+              "ToolTip": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\src\\Program.cs",
+              "RelativeToolTip": "src\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T10:52:31.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

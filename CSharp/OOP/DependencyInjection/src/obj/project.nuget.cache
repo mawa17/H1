@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "LFiYZfRN/v4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\DependencyInjection\\src\\src.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\marcu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -20,9 +20,18 @@
 
             Console.WriteLine(car.DisplayInfo());
             Console.WriteLine(car.InspectionStatus());
+            Console.WriteLine($"Summer Rim Size: {car.MaxRimSize}");
+            car.SetTireType(true);
+            Console.WriteLine($"Winter Rim Size: {car.MaxRimSize}");
             Console.WriteLine();
             Console.WriteLine(truck.DisplayInfo());
             Console.WriteLine(truck.InspectionStatus());
+            Console.WriteLine($"Summer Rim Size: {truck.MaxRimSize}");
+            truck.SetTireType(true);
+            Console.WriteLine($"Winter Rim Size: {truck.MaxRimSize}");
+
+            car.GetInterfaceInfo();
+            truck.GetInterfaceInfo();
         }
     }
 }
