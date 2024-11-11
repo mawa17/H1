@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\Bank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D415C41D-256F-472C-9574-4D49778FAB93}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\bank\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D415C41D-256F-472C-9574-4D49778FAB93}|src\\src.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D415C41D-256F-472C-9574-4D49778FAB93}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\bank\\src\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D415C41D-256F-472C-9574-4D49778FAB93}|src\\src.csproj|solutionrelative:src\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D415C41D-256F-472C-9574-4D49778FAB93}|src\\src.csproj|c:\\users\\marcu\\desktop\\h1\\csharp\\oop\\bank\\src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D415C41D-256F-472C-9574-4D49778FAB93}|src\\src.csproj|solutionrelative:src\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Account.cs",
               "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\Bank\\src\\Account.cs",
               "RelativeDocumentMoniker": "src\\Account.cs",
               "ToolTip": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\Bank\\src\\Account.cs",
               "RelativeToolTip": "src\\Account.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA5wAQAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA0wAsAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T07:33:38.682Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\Bank\\src\\Program.cs",
               "RelativeDocumentMoniker": "src\\Program.cs",
               "ToolTip": "C:\\Users\\marcu\\Desktop\\H1\\CSharp\\OOP\\Bank\\src\\Program.cs",
               "RelativeToolTip": "src\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T07:33:07.761Z",
               "EditorCaption": ""

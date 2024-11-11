@@ -1,0 +1,27 @@
+﻿namespace src
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            UserRepository.ReadFile();
+
+            Console.Write("Write last name: ");
+            string lastName = Console.ReadLine();
+
+            Console.Write("Write age: ");
+            if(!byte.TryParse(Console.ReadLine(), out byte age))
+            {
+                Console.WriteLine("Failed to parse age");
+                return;
+            }
+
+            Console.Write("Write email: ");
+            string email = Console.ReadLine();
+
+            User user = new(lastName, age, email);
+            UserRepository.Add(user);
+            UserRepository.WriteFile();
+        }
+    }
+}
