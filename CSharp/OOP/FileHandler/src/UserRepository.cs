@@ -16,12 +16,32 @@ namespace src
 
         public User(in string lastName, in byte age, in string email)
         {
-            if (String.IsNullOrEmpty(lastName)) throw new InvalidNameException("Name cannot be null or empty!");
-            if (age is < 18 or > 50) throw new InvalidAgeException("Age must be between 18-50!");
-            if (!Regex.IsMatch(email, "@.*\\.")) throw new InvalidEmailException("Email must contain @ and .");
             this.LastName = lastName;
             this.Age = age;
             this.Email = email;
+        }
+        public Exception? Validate()
+        {
+            try
+            {
+                if (String.IsNullOrEmpty(this.LastName)) throw new InvalidNameException("Name cannot be null or empty!");
+                if (!Regex.IsMatch(this.Email, "@.*\\.")) throw new InvalidEmailException("Email must contain @ and .");
+                if (this.Age is < 18 or > 50) throw new InvalidAgeException("Age must be between 18-50!");
+            
+            }
+            catch (InvalidAgeException ex) when (this.LastName == "Niels Olesen")
+            {
+                return ex;
+            }
+            catch (InvalidNameException ex)
+            {
+                return ex;
+            }
+            catch (InvalidEmailException ex)
+            {
+                return ex;
+            }
+            return null;
         }
         public override string ToString() => $"{this.LastName}, {this.Age}, {this.Email}";
     }
