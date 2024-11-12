@@ -19,7 +19,7 @@
             Console.Write("Write email: ");
             string email = Console.ReadLine();
 
-            User user = new(lastName, age, email);
+            RegisteredUsers user = new(lastName, age, email);
             var ex = user.Validate();
             if(ex is not null) Console.WriteLine(ex.Message);
             UserRepository.Add(user);

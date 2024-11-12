@@ -5,16 +5,17 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace src
 {
-    public sealed record User
+    public sealed record RegisteredUsers : IComparable<RegisteredUsers>
     {
         public string LastName { get; init; }
         public byte Age { get; init; }
         public string Email { get; init; }
 
-        public User(in string lastName, in byte age, in string email)
+        public RegisteredUsers(in string lastName, in byte age, in string email)
         {
             this.LastName = lastName;
             this.Age = age;
@@ -44,13 +45,15 @@ namespace src
             return null;
         }
         public override string ToString() => $"{this.LastName}, {this.Age}, {this.Email}";
+
+        public int CompareTo(RegisteredUsers? other) => String.Compare(other?.LastName, this.LastName, StringComparison.Ordinal);
     }
     public static class UserRepository
     {
-        private static List<User> _users = new List<User>();
-        public static IReadOnlyList<User> Users => _users;
+        private static List<RegisteredUsers> _users = new();
+        public static IReadOnlyList<RegisteredUsers> SortedUsers => _users;
         private static string _filePath = Path.Combine(Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent.FullName, "Files", "Users.txt");
-        private static User? ParseUser(string line)
+        private static RegisteredUsers? ParseUser(string line)
         {
             try
             {
@@ -58,7 +61,7 @@ namespace src
                 string lastName = data[0].Trim();
                 byte age = Convert.ToByte(data[1].Trim()); /*Will trigger out catch if failed*/
                 string email = data[2].Trim();
-                return new User(lastName, age, email);
+                return new RegisteredUsers(lastName, age, email);
             }
             catch (Exception ex)
             {
@@ -66,26 +69,31 @@ namespace src
                 return null;
             }
         }
-        public static void Add(in User user) => _users.Add(user);
+        public static void Add(in RegisteredUsers user)
+        {
+            _users.Add(user);
+            _users.Sort();
+        }
         public static void ReadFile()
         {
-            using (FileStream fs = File.Create(_filePath))
+            using (FileStream fs = new FileStream(_filePath, FileMode.OpenOrCreate))
             using (StreamReader reader = new StreamReader(fs))
             {
                 string? line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    User? user = ParseUser(line);
+                    RegisteredUsers? user = ParseUser(line);
                     if (user is null) continue;
                     _users.Add(user);
                 }
             }
+            _users.Sort();
         }
         public static void WriteFile()
         {
             using (StreamWriter writer = new(_filePath, append: true))
             {
-                foreach (User user in _users)
+                foreach (RegisteredUsers user in _users)
                     writer.WriteLine(user.ToString());
             }
         } 
