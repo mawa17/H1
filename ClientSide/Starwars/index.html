@@ -16,13 +16,15 @@
         </nav>
     </header>
 
-    <div class="container" id="people">
-        <label for="searchInput">Search by character</label>
-        <input type="text" id="searchInput" placeholder="Search..." oninput="search()">
-        <datalist id="suggestions"></datalist>
+    <div id="container">
+        <div class="people" style="display: none;">
+            <label for="searchInput">Search by character</label>
+            <input list="suggestions" type="text" id="searchInput" placeholder="Search..." oninput="Search()">
+            <datalist id="suggestions"></datalist>
+        </div>
+        <div class=""></div>
     </div>
-    <div class="container off" id="planets"></div>
-    <div class="container off" id="films"></div>
+    
 </body>
 </html>
 <script src="./Assets/js/scripts.js"></script>
