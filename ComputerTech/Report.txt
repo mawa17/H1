@@ -1,0 +1,39 @@
+    
+    Hypervisor miljøer er komplette isoleret virtuelle miljøer som er deres eget system 
+    Containerization er lidt ligesom Hypervisor miljøer men dog ikke helt da Containerization ikke er komplette system men nærmere dele af et system som bliver virtualiseret
+    HyperV (Hypervisor)
+        HyperV er Microsofts svar på et hypervisor software til professionel brug med mange avanceret funktioner såsom
+        Virtuelle netværk, hardware og snapshots af virtuelle miljøer samt en høj kvalitet af sikkerhed
+        HyperV er også dybt integreret i Windows system hvilket gør det nemt at konfigurere
+        HyperV kan også integreres med Microsofts online løsninger via Azure
+    VirtualBox (Hypervisor)
+        VirtualBox er en open source-løsning fra firmaet Oracle, der også tilbyder færre avancerede funktioner sammenlignet med sine konkurrenter.
+        VirtualBox har understøttelse af cross-platform til Windows, macOS og Linux og har en overskuelig brugergrænseflade
+        VirtualBox kan bruges til professionel brug men mangler nogle af de avanceret funktioner og ydeevnen er mindre optimal end konkurrenternes 
+    VMWare (Hypervisor)
+        VMWare er en af de store spillere på markedet, der ofte bruges i virksomhedsmiljøer samt enterprise løsninger
+        VMware har mange enterprise og avancerede funktioner såsom
+        automatisk reboot ved fejl og kombinerede server-cluster, live migration Disse funktioner gør VMWare meget attraktivt til enterprise løsninger
+        VMware er nok et af de mest kendte hypervisor platforme, der tilbyder en robuste og skalerbare løsninger for mange virksomheder
+    Proxmox (Hypervisor & Containerization) 
+        Proxmox er en ret unik hypervisor og containerisering platform til linux som tilbyder det bedste af begge teknologierer
+    Docker (Containerization)
+
+
+
+DHCP (Static IP)
+webserver (iis)
+Shared Network Drive
+
+
+Static IP for Server:
+
+IP Address: 192.168.1.100
+Subnet Mask: 255.255.255.0
+IP Pool for DHCP Server:
+
+Starting IP Address: 192.168.1.101
+Ending IP Address: 192.168.1.200
+Subnet Mask: 255.255.255.0
+Default Gateway: 192.168.1.1 (your router's IP)
+DNS Server: 192.168.1.1 (your router's IP, or a dedicated DNS server)

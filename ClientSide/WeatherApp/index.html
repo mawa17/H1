@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container-full">
+        <header class="nav">
+            <h2>VELKOMMEN TIL VEJERSTATONEN</h2>
+        </header>
+        <div class="card">
+            <div class="card-header" id="icon">
+            <div class="card-body">
+                <div class="card-group">
+                    <h1 class="temp" id="temp"></h1>
+                </div>
+            </div>
+        </div>
+        
+        <form onsubmit="GetWeatherByCity(event)">
+            <label for="searchInput">Select City:</label>
+            <input list="suggestions" id="searchInput" name="city" placeholder="Search by city name..." />
+            <datalist id="suggestions"></datalist>
+        </form>
+        <table id="weathertable">
+        </table>
+    </div>
+</body>
+</html>
+<script src="./assets/js/scripts.js"></script>

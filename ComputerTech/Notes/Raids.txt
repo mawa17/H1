@@ -1,0 +1,79 @@
+Parity = BlockCheckSum
+
+RAID 0 (Striping) 2 disks minimum
+    How it works: Data is split evenly across two or more drives.
+    Pros: Fast performance, full storage capacity.
+    Cons: No redundancy—if one drive fails, all data is lost.
+    Use case: Speed-focused applications, like video editing.
+    
+RAID 1 (Mirroring) 2 disks minimum
+    How it works: Data is duplicated onto two or more drives.
+    Pros: High redundancy—if one drive fails, data is safe.
+    Cons: Storage capacity is halved; slower write speed.
+    Use case: Systems needing high reliability, like servers.
+
+RAID 2 (Bit-Level Striping with Hamming Code) 3 disks minimum
+    How it works: Data is striped at the bit level, with error correction using Hamming code.
+    Pros: High error correction.
+    Cons: Complex and outdated; rarely used today.
+    Use case: Theoretical or historical interest only.
+
+RAID 3 (Byte-Level Striping with Dedicated Parity) 3 disks minimum
+    How it works: Data is striped at the byte level, with a dedicated parity drive for error correction.
+    Pros: Good for sequential data reads.
+    Cons: Parity drive can become a bottleneck.
+    Use case: Rare; video editing or sequential data applications.
+
+RAID 4 (Block-Level Striping with Dedicated Parity) 3 disks minimum
+    How it works: Data is striped at the block level, with a dedicated parity drive for error correction.
+    Pros: Good for read performance.
+    Cons: Parity drive bottleneck; less used today.
+    Use case: Systems with heavy reads but minimal writes.
+
+RAID 5 (Striping with Parity) 3 disks minimum
+    How it works: Data is striped across three or more drives, with parity (error-checking data) stored.
+    Pros: Redundancy and good performance; can tolerate one drive failure.
+    Cons: Parity calculations slow down writes; requires at least 3 drives.
+    Use case: Balanced performance and reliability for databases or file servers.
+
+RAID 6 (Striping with Double Parity) 4 disks minimum
+    How it works: Like RAID 5, but with two parity blocks for extra protection.
+    Pros: Can survive two drive failures.
+    Cons: Slower writes and more storage used for parity.
+    Use case: High-reliability storage systems.
+
+RAID 10 (1+0, Mirroring + Striping) 4 disks minimum
+    How it works: Combines RAID 1 and RAID 0. Data is mirrored, then striped.
+    Pros: High performance and redundancy.
+    Cons: Expensive; uses a lot of drives.
+    Use case: High-speed, high-reliability applications like databases.
+
+RAID 50 (5+0, Striping + Parity) 6 disks minimum
+    How it works: Combines RAID 5 and RAID 0. Multiple RAID 5 arrays are striped together.
+    Pros: Improved redundancy and performance over RAID 5.
+    Cons: Needs many drives; complicated setup.
+    Use case: Large-scale storage systems.
+
+RAID 60 (6+0, Striping + Double Parity) 8 disks minimum
+    How it works: Combines RAID 6 and RAID 0. Multiple RAID 6 arrays are striped together.
+    Pros: Very high redundancy and decent performance.
+    Cons: Expensive and complex.
+    Use case: Critical systems requiring high uptime.
+
+Spanned/JBOD (Just a Bunch of Disks) (Not technically RAID)
+    How it works: Combines multiple drives into one logical volume.
+    Pros: Flexible, uses all drive space.
+    Cons: No redundancy; data loss if one drive fails.
+    Use case: General-purpose storage.
+
+RAID 01 (0+1, Striping + Mirroring)
+    How it works: Data is striped, then mirrored.
+    Pros: Some redundancy and performance.
+    Cons: Less reliable than RAID 10.
+    Use case: Rare due to RAID 10 being superior.
+
+Nested RAID Levels (Beyond 10, 50, 60)
+    How it works: Combines various RAID types (e.g., RAID 100 = 1+0+0).
+    Pros: Extreme performance and redundancy.
+    Cons: Expensive and complex.
+    Use case: Enterprise-level, high-performance systems.

@@ -1,0 +1,44 @@
+#SidePanel {
+    background-color: var(--bg-color);
+    height: auto;
+    padding: 5px;
+    font-family: "Gill Sans", sans-serif;
+    border-radius: var(--style-round);
+    padding: 32px;
+}
+
+#SidePanel > img {
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#SidePanel > ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#SidePanel > ul.menu > li {
+    margin-left: 20px;
+    margin: 16px;
+}
+
+#SidePanel > ul.menu > li > a {
+    color: var(--font-color-light);
+    text-decoration: none;
+
+}
+
+
+#SidePanel > ul.menu > h1 {
+    color: var(--font-color-dark);
+    margin: 0;
+    font-size: 20px;
+}
+
+.menu li a::after {
+    content: '>';
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+}

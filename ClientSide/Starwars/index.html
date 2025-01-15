@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pick a category</h1>
+        <nav>
+            <button onclick="showMessage()">Characters</button>
+            <button onclick="showMessage()">Planets</button>
+            <button onclick="showMessage()">Movies</button>
+        </nav>
+    </header>
+
+    <div class="container" id="people">
+        <label for="searchInput">Search by character</label>
+        <input type="text" id="searchInput" placeholder="Search..." oninput="search()">
+        <datalist id="suggestions"></datalist>
+    </div>
+    <div class="container off" id="planets"></div>
+    <div class="container off" id="films"></div>
+</body>
+</html>
+<script src="./Assets/js/scripts.js"></script>

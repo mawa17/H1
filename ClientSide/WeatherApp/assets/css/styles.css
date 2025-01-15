@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    padding: 20px;
+}
+.container-full > .card > .card-body {
+    background-color: red;
+}
+
+.container-full > .card {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background: gray;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    block-size: fit-content;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#weathertable > tr > td {
+    padding-top: 10px;
+}
+#weathertable > tr > th {
+    padding: 10px;
+}
